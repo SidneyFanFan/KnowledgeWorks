@@ -39,9 +39,6 @@ public class WebhooksControllerTest {
 
 	@Test
 	public void test() {
-		Map<String, Object> response = wbhooksController.webhooks("",
-				requestBody);
-		assertEquals("SidneyFanFan", response.get("Sender_Name"));
 	}
 
 }
