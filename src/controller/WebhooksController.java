@@ -1,5 +1,6 @@
 package controller;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,14 +20,11 @@ public class WebhooksController {
 
 	@RequestMapping(value = "/githubPush.do", method = RequestMethod.POST, consumes = "application/json")
 	public @ResponseBody Map<String, Object> webhooks(
-			@RequestHeader String requestHeader, @RequestBody String requestBody) {
+			@RequestBody WebHooksJson requestBody) {
 		// this is a post from github push
 		Map<String, Object> response = new HashMap<String, Object>();
-		JSONObject body = new JSONObject(requestBody);
-		JSONObject config = body.getJSONObject("hook").getJSONObject("config");
-		JSONObject sender = body.getJSONObject("sender");
-		String secret = config.getString("secret");
-		String senderName = sender.getString("login");
+		String secret = requestBody.getSecret();
+		String senderName = requestBody.getSenderName();
 		response.put("Sender_Name", senderName);
 		if (secret.equals(SECRET)) {
 			response.put("Authority", "Accept");
@@ -35,6 +33,31 @@ public class WebhooksController {
 		}
 		// excute ssh to pull and compile project
 		return response;
+	}
+
+	private class WebHooksJson implements Serializable {
+
+		private static final long serialVersionUID = 1L;
+
+		private String zen;
+		private int hook_id;
+		private String hook;
+		private String respository;
+		private String sender;
+
+		String getSenderName() {
+			JSONObject senderJsonObj = new JSONObject(sender);
+			String senderName = senderJsonObj.getString("login");
+			return senderName;
+		}
+
+		String getSecret() {
+			JSONObject senderJsonObj = new JSONObject(hook);
+			String secret = senderJsonObj.getJSONObject("config").getString(
+					"secret");
+			return secret;
+		}
+
 	}
 
 }
