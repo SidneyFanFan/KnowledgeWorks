@@ -1,0 +1,35 @@
+/* knowledge base browser page */
+.navbar-inverse .navbar-brand {
+	color: #EEEEEE;
+}
+
+.navbar-inverse {
+	background-color: #003300;
+	border-color: #CCCC99;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus
+	{
+	color: #fff;
+	background-color: transparent;
+}
+
+.btn-sidebar {
+	color: #eee;
+	background-color: #003300;
+	border-color: #003300;
+}
+
+.btn-sidebar:hover, .btn-sidebar:focus, .btn-sidebar.focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+.sidebar li>a {
+	color: #990033;
+}
+
+.sidebar li>a:hover, .sidebar li>a:focus {
+	color: #fff;
+	background-color: #003300;
+}

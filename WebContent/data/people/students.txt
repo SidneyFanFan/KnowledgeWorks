@@ -1,0 +1,11 @@
+Xu, Bo	Xu,Bo.jpg	Ph.D Student	Knowledge Graph	bolang1988@gmail.com	#
+Liang, bin	#	Ph.D Student	Research Area	liangbin@fudan.edu.cn	#
+Feng, Guodong	#	Ph.D Student	Research Area	rschwirzer@hotmail.com	#
+Cui, Wanyun	#	Ph.D Student	Research Area	09300240047@fudan.edu.cn	#
+Chen, Chuang	Chen,Chuang.jpg	M.S Student	Social Network Analysis, Internet Product Design and Planning	chuang1159@gmail.com	ghostchef.org
+Qin, Huazheng	#	M.S Student	Research Area	qinhuazheng1991@qq.com	#
+Liang, Jiaqing	#	Undergraduate Student	Research Area	l.j.q.light@gmail.com	#
+Zhou, Xiyou	Zhou,Xiyou.JPG	Undergraduate Student	 Knowledge Graph	xiyouzhou13@fudan.edu.cn	#
+Zhang, Yi	Zhang,Yi.jpg	Undergraduate Student	 Information Retrieval, Knowledge Graph, Network Analysis	yizhang0705@hotmail.com	#
+Xie, Chenhao	Xie,Chenhao.jpeg	Undergraduate Student	 Knowledge Graph, Network Analysis	redreamality@gmail.com	yizhang0705@hotmail.com	#
+Fan, Siqi	#	Undergraduate Student	 Knowledge Management	SidneyFan716@gmail.com	#

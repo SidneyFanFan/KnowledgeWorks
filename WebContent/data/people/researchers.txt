@@ -1,0 +1,3 @@
+Xiao, Yanghua	Xiao,Yanghua.jpg	Associate Professor	Big Data management, knowledge graph, graph knowledge base	shawyanghua@gmail.com	http://gdm.fudan.edu.cn/GDMWiki/Wiki.jsp?page=Yanghuaxiao
+Wang, Wei	Wang,Wei.jpg	Professor	Database, data mining	weiwang1@fudan.edu.cn	http://www.cs.fudan.edu.cn/?page_id=2439
+Yang, Deqing	Yang,Deqing.jpg	Lecturer	data mining, social network analysis, knowledge graph, recommender systems	yangdeqing@fudan.edu.cn	/KnowledgeWorks/people/?person=yangdeqing
